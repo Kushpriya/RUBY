@@ -6,10 +6,10 @@ foods = {
 }
 
 puts "what would you like to do?"
-  puts "if you want to add food then enter 1"
-  puts "to update enter 2"
-  puts "to delete enter 3"
-  puts "to display enter 4"
+  puts "If you want to add food then enter 1"
+  puts "To update enter 2"
+  puts "To delete enter 3"
+  puts "To display enter 4"
   
  choice = gets.chomp
  case choice
@@ -18,6 +18,7 @@ puts "what would you like to do?"
         food_name = gets.chomp.to_sym
         puts "Give rating to the food?" 
         rating = gets.chomp.to_i
+        puts "you added #{food_name} gave rating #{rating}"
         
-
+    end
 
