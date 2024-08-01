@@ -50,7 +50,7 @@ class TodoApp
           task_number = gets.chomp.to_i
           remove_task(task_number)
         when 4
-          puts "Exiting the To-Do App."
+          puts "Exitinjg the To-Do App."
           break
         else
           puts "Invalid choice. Please try again."
@@ -61,3 +61,5 @@ class TodoApp
   
   # Start the app
   TodoApp.new.start
+
+  
