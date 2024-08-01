@@ -59,7 +59,4 @@ class TodoApp
     end
   end
   
-  # Start the app
   TodoApp.new.start
-
-  
